@@ -58,34 +58,37 @@
     color: #404142;
 }
 
-.card1 {
-    font-family: Quicksand;
-    color: #404142;
-    background-color: #eff888;
-    text-align: center;
-    font-size: 24px;
-}
-
-.card2 {
-    font-family: Quicksand;
-    color: #404142;
-    background-color: #eff888;
-    text-align: center;
-    font-size: 24px;
-}
-
-.card3 {
-    font-family: Quicksand;
-    color: #404142;
-    background-color: #eff888;
-    text-align: center;
-    font-size: 24px;
-}
-
+.card1,
+.card2,
+.card3,
 .card4 {
     font-family: Quicksand;
     color: #404142;
-    background-color: #eff888;
+    background-color: rgba(170, 179, 60, 0.302);
     text-align: center;
     font-size: 24px;
+}
+
+.par4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.par5,
+.par6 {
+    font-size: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+.figure-caption1,
+.figure-caption2 {
+    font-size: 20px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
 }
