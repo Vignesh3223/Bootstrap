@@ -1,13 +1,9 @@
 .layer1 {
     background-image: url(/assets/images/Rectangle\ 1\ \(1\).png);
-    height: 840px
+    height: 840px;
 }
 
-#navbar {
-    justify-content: end;
-}
-
-#navbar a {
+#navbarSupportedContent a {
     color: #ffff;
     font-family: Quicksand;
     line-height: 50px;
@@ -128,7 +124,6 @@
     font-size: 18px;
     font-weight: 700;
     font-family: "Quicksand";
-    margin-left: 500px;
 }
 
 thead {
@@ -196,4 +191,78 @@ tr:nth-child(7) {
     color: #404142;
     font-weight: 500;
     font-family: "Quicksand";
+}
+
+#par12 {
+    font-size: 35px;
+
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#btn4 {
+    background-color: #aab33c;
+    color: #ffff;
+    width: 235px;
+    height: 47px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.layer7 .container-fluid {
+    background-image: url(/assets/images/Rectangle\ 18.png);
+}
+
+@font-face {
+    font-family: open sans;
+    src: url(/assets/css/Open\ Sans\ Light.ttf);
+}
+
+.par13,
+.par15,
+.par19 {
+    font-size: 18px;
+    color: #404142;
+    font-weight: 900;
+    font-family: open sans;
+    font-weight: bold;
+}
+
+.par14,
+.par16,
+.par17,
+.par18 {
+    font-size: 12px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.par20 a,
+.par21 a {
+    font-size: 12px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+#btn5 {
+    width: 112px;
+    height: 42px;
+    border-radius: 3px;
+    background-color: #aab33b;
+    color: #ffff;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+form input {
+    font-size: 16px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Open Sans";
 }
