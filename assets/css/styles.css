@@ -1,3 +1,8 @@
+.layer1 {
+    background-image: url(/assets/images/Rectangle\ 1\ \(1\).png);
+    height: 840px
+}
+
 #navbar {
     justify-content: end;
 }
@@ -90,5 +95,105 @@
     font-size: 20px;
     color: #404142;
     font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.layer3 {
+    background-color: rgba(170, 179, 60, 0.102);
+    background-repeat: no-repeat;
+}
+
+.par7 {
+    font-size: 50px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.par8,
+.par9,
+.par10 {
+    font-size: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#btn3 {
+    background-color: #aab33c;
+    color: #ffff;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Quicksand";
+    margin-left: 500px;
+}
+
+thead {
+    background-color: rgb(170, 179, 59);
+    font-family: Quicksand;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#tp1,
+#tp2 {
+    font-size: 11px;
+    color: #ffff;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+tbody {
+    font-size: 11px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+tr:nth-child(even) {
+    background-color: rgba(170, 179, 60, 0.302);
+}
+
+tr:nth-child(7) {
+    font-size: 25px;
+    color: #aab33b;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#tp3 {
+    font-size: 16px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#t71,
+#t72 {
+    font-size: 16px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.par11 {
+    font-size: 35px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.layer5 {
+    background-image: url(/assets/images/Rect.png);
+}
+
+.card4 {
+    font-size: 14px;
+    color: #404142;
+    font-weight: 500;
     font-family: "Quicksand";
 }
