@@ -134,9 +134,20 @@
 
 /*layer 4 table*/
 table {
-    border-collapse: separate;
-    border:none;
-    border-color: rgba(170, 179, 60, 0.302);
+    border-collapse: collapse;
+}
+
+th:nth-child(2) {
+    border: 1px solid white;
+}
+
+td:nth-child(2) {
+    border: 1px solid rgba(170, 179, 60, 0.302);
+    text-align: center;
+}
+
+td:nth-child(3) {
+    text-align: center;
 }
 
 table th:first-child {
@@ -197,7 +208,6 @@ tr:nth-child(7) {
     color: #aab33b;
     font-weight: 700;
     font-family: "Quicksand";
-    background-color: whitesmoke;
 }
 
 #tp3 {
@@ -215,6 +225,11 @@ tr:nth-child(7) {
     font-family: "Quicksand";
 }
 
+/*layer 5*/
+.layer5 {
+    background-image: url(/assets/images/bg2.png);
+}
+
 .par11 {
     font-size: 35px;
     color: #404142;
@@ -222,9 +237,22 @@ tr:nth-child(7) {
     font-family: "Quicksand";
 }
 
-/*layer 5*/
-.layer5 {
-    background-image: url(/assets/images/bg2.png);
+.par11 a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #404142;
+}
+
+/*layer 6*/
+
+.card5,
+.card6,
+.card7 {
+    background-color: #fdffe9;
+    font-size: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
 }
 
 #par12 {
