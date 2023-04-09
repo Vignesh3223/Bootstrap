@@ -131,18 +131,36 @@
     font-family: "Quicksand";
 }
 
+
+/*layer 4 table*/
+table {
+    border-collapse: separate;
+    border:none;
+    border-color: rgba(170, 179, 60, 0.302);
+}
+
+table th:first-child {
+    border-radius: 20px 0 0 0;
+}
+
+table th:last-child {
+    border-radius: 0 20px 0 0;
+}
+
+table tr:last-child td:first-child {
+    border-radius: 0 0 0 20px;
+}
+
+table tr:last-child td:last-child {
+    border-radius: 0 0 20px 0;
+}
+
 #topic {
     background-color: rgb(170, 179, 59);
     font-family: Quicksand;
     font-size: 45px;
     color: #ffffff;
     font-weight: 700;
-}
-
-/*layer 4 table*/
-table {
-    border-collapse: collapse;
-    border: 1px solid rgba(170, 179, 59, 0.3);
 }
 
 thead {
@@ -159,6 +177,7 @@ thead {
     color: #ffff;
     font-weight: 500;
     font-family: "Quicksand";
+    background-color: rgb(170, 179, 59);
 }
 
 tbody {
@@ -166,7 +185,7 @@ tbody {
     color: #404142;
     font-weight: 500;
     font-family: "Quicksand";
-    border-radius: 6px;
+    background-color: whitesmoke;
 }
 
 tr:nth-child(even) {
@@ -178,6 +197,7 @@ tr:nth-child(7) {
     color: #aab33b;
     font-weight: 700;
     font-family: "Quicksand";
+    background-color: whitesmoke;
 }
 
 #tp3 {
@@ -292,4 +312,3 @@ form input {
     font-weight: 700;
     font-family: "Open Sans";
 }
-
