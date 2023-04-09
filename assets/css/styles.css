@@ -1,6 +1,6 @@
 .layer1 {
     background-image: url(/assets/images/Rectangle\ 1\ \(1\).png);
-    height: 840px;
+    height: 830px;
 }
 
 #navbarSupportedContent a {
@@ -125,11 +125,18 @@
     font-weight: 700;
     font-family: "Quicksand";
 }
+#topic{
+    background-color: rgb(170, 179, 59);
+    font-family: Quicksand;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+}
 
 thead {
     background-color: rgb(170, 179, 59);
     font-family: Quicksand;
-    font-size: 45px;
+    font-size: 25px;
     color: #ffffff;
     font-weight: 700;
 }
@@ -265,4 +272,14 @@ form input {
     color: #404142;
     font-weight: 700;
     font-family: "Open Sans";
+}
+
+.footer {
+    background-color: #aab33b;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 11px;
 }
