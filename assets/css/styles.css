@@ -1,8 +1,10 @@
+/*layer 1*/
 .layer1 {
     background-image: url(/assets/images/back.png);
     height: 830px;
 }
 
+/*navbar*/
 #navbarSupportedContent a {
     color: #ffff;
     font-family: Quicksand;
@@ -20,6 +22,7 @@
     text-align: center;
 }
 
+/*page content*/
 @font-face {
     font-family: stylic;
     src: url(/assets/css/00819.ttf)
@@ -51,6 +54,7 @@
     font-family: "Quicksand";
 }
 
+/*layer 2*/
 .par3 {
     font-family: Quicksand;
     font-size: 30px;
@@ -94,6 +98,7 @@
     font-family: "Quicksand";
 }
 
+/*layer 3*/
 .layer3 {
     background-color: rgba(170, 179, 60, 0.102);
     background-repeat: no-repeat;
@@ -134,9 +139,10 @@
     font-weight: 700;
 }
 
+/*layer 4 table*/
 table {
-        border-collapse: collapse;
-        border: 1px solid rgba(170, 179, 59, 0.3);
+    border-collapse: collapse;
+    border: 1px solid rgba(170, 179, 59, 0.3);
 }
 
 thead {
@@ -196,13 +202,13 @@ tr:nth-child(7) {
     font-family: "Quicksand";
 }
 
+/*layer 5*/
 .layer5 {
     background-image: url(/assets/images/bg2.png);
 }
 
 #par12 {
     font-size: 35px;
-
     color: #404142;
     font-weight: 700;
     font-family: "Quicksand";
@@ -218,6 +224,7 @@ tr:nth-child(7) {
     font-family: "Quicksand";
 }
 
+/*layer 7*/
 .layer7 {
     background-image: url(/assets/images/bg3.png);
 }
@@ -267,13 +274,7 @@ tr:nth-child(7) {
     font-weight: 700;
 }
 
-form input {
-    font-size: 16px;
-    color: #404142;
-    font-weight: 700;
-    font-family: "Open Sans";
-}
-
+/*footer*/
 .footer {
     background-color: #aab33b;
     color: #ffffff;
@@ -283,3 +284,12 @@ form input {
     letter-spacing: 4px;
     font-size: 11px;
 }
+
+/*footer form*/
+form input {
+    font-size: 16px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
