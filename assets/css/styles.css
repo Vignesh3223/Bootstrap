@@ -1,5 +1,5 @@
 .layer1 {
-    background-image: url(/assets/images/Rectangle\ 1\ \(1\).png);
+    background-image: url(/assets/images/back.png);
     height: 830px;
 }
 
@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: stylic;
-    src: url(/assets/css/00819\ Regular.ttf)
+    src: url(/assets/css/00819.ttf)
 }
 
 .par1 {
@@ -134,6 +134,11 @@
     font-weight: 700;
 }
 
+table {
+        border-collapse: collapse;
+        border: 1px solid rgba(170, 179, 59, 0.3);
+}
+
 thead {
     background-color: rgb(170, 179, 59);
     font-family: Quicksand;
@@ -155,6 +160,7 @@ tbody {
     color: #404142;
     font-weight: 500;
     font-family: "Quicksand";
+    border-radius: 6px;
 }
 
 tr:nth-child(even) {
@@ -191,7 +197,7 @@ tr:nth-child(7) {
 }
 
 .layer5 {
-    background-image: url(/assets/images/Rect.png);
+    background-image: url(/assets/images/bg2.png);
 }
 
 #par12 {
@@ -213,12 +219,12 @@ tr:nth-child(7) {
 }
 
 .layer7 {
-    background-image: url(/assets/images/Rectangle\ 18.png);
+    background-image: url(/assets/images/bg3.png);
 }
 
 @font-face {
     font-family: open sans;
-    src: url(/assets/css/Open\ Sans\ Light.ttf);
+    src: url(/assets/css/OpenSans.ttf);
 }
 
 .par13,
