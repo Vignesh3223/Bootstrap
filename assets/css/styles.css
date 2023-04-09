@@ -194,13 +194,6 @@ tr:nth-child(7) {
     background-image: url(/assets/images/Rect.png);
 }
 
-.card4 {
-    font-size: 14px;
-    color: #404142;
-    font-weight: 500;
-    font-family: "Quicksand";
-}
-
 #par12 {
     font-size: 35px;
 
@@ -212,14 +205,14 @@ tr:nth-child(7) {
 #btn4 {
     background-color: #aab33c;
     color: #ffff;
-    width: 235px;
+    width: 225px;
     height: 47px;
     font-size: 18px;
     font-weight: 700;
     font-family: "Quicksand";
 }
 
-.layer7 .container-fluid {
+.layer7 {
     background-image: url(/assets/images/Rectangle\ 18.png);
 }
 
