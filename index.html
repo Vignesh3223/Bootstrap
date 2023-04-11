@@ -12,7 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d7200c44d8.js" crossorigin="anonymous"></script>
-    <title>Real Estate Analysis</title>
+    <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <title>Zoom-imm</title>
 </head>
 
 <body>
@@ -363,7 +366,7 @@
                 </div>
                 <!--form-->
                 <div class="col-3">
-                    <form name="form1" method="post" action="" style="white-space:pre-line;">
+                    <form name="form1" class="comments" method="post" action="" style="white-space:pre-line;">
                         <i class="fa-solid fa-user"
                             style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
                             type="text" name="name" placeholder="Name">
@@ -383,6 +386,49 @@
                     <div class="container pe-5">
                         <button type="button" class="btn btn-success float-end mt-3 me-5 p-2" id="btn5">SUBMIT</button>
                     </div>
+                    <script>
+                        $(document).ready(function () {
+                            $(".comments").validate({
+                                rules: {
+                                    'name': {
+                                        required: true,
+                                        minlength: 2,
+                                        maxlength: 15,
+                                        pattern: /^[A-Za-z ]+$/
+                                    },
+                                    'phone': {
+                                        required: true,
+                                        minlength: 10,
+                                        pattern: /^[0-9]$/
+                                    },
+                                    'email': {
+                                        required: true,
+                                        email: true,
+                                        pattern: /^[a-z0-9]+@[a-z]+\.[a-z]{2,4}$/
+                                    }
+                                },
+                                messages: {
+                                    'name': {
+                                        required: "<br> Please enter a Username.",
+                                        minlength: "<br> Username is too small",
+                                        maxlength: "<br> Username is too large",
+                                        pattern: "<br> Username must contain only alpabets"
+                                    },
+                                    'phone': {
+                                        required: "<br> Please enter a valid Mobile number.",
+                                        minlength: "<br> Mobile number must contain 10 digits",
+                                        pattern: "<br> Mobile number must be in the format"
+                                    },
+
+                                    'email': {
+                                        required: "<br> Please enter an Email address",
+                                        email: "<br> Please enter a valid email address",
+                                        pattern: "<br> E-mail address should be in proper format"
+                                    }
+                                }
+                            });
+                        });
+                    </script>
                 </div>
             </div>
         </div>
