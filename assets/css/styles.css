@@ -475,7 +475,7 @@ form input {
     }
 }
 
-@media screen and (max-width:992px) {
+@media (max-width:992px) {
     .navbar-collapse {
         position: absolute;
         z-index: 1;
