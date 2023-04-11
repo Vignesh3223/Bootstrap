@@ -132,10 +132,9 @@
 
 
 /*layer 4 table*/
-table {
+table{
     border-collapse: collapse;
 }
-
 th:nth-child(2) {
     border: 1px solid white;
 }
