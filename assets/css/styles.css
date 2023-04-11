@@ -1,8 +1,6 @@
 /*layer 1*/
 .layer1 {
-    background-image: url(/assets/images/background1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(../images/background1.png);
 }
 
 /*navbar*/
@@ -26,7 +24,7 @@
 /*page content*/
 @font-face {
     font-family: stylic;
-    src: url(/assets/css/00819.ttf)
+    src: url(../css/00819.ttf)
 }
 
 .par1 {
@@ -228,7 +226,7 @@ tr:nth-child(7) {
 
 /*layer 5*/
 .layer5 {
-    background-image: url(/assets/images/bg2.png);
+    background-image: url(../images/bg2.png);
 }
 
 .par11 {
@@ -275,12 +273,12 @@ tr:nth-child(7) {
 
 /*layer 7*/
 .layer7 {
-    background-image: url(/assets/images/bg3.png);
+    background-image: url(../images/bg3.png);
 }
 
 @font-face {
     font-family: open sans;
-    src: url(/assets/css/OpenSans.ttf);
+    src: url(../css/OpenSans.ttf);
 }
 
 .par13,
@@ -412,5 +410,65 @@ form input {
     .card7 {
         position: absolute;
         top: 20px;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1300px) {
+    #navbarSupportedContent a {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media (max-width:1024px) {
+    .card1 {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:1024px) {
+    .card2 {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:1024px) {
+    .card3 {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:1024px) {
+    .figure-caption1 {
+        display: inline;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1024px) {
+    .card5 {
+        position: absolute;
+        top: 70px;
+        left: 5px;
+    }
+}
+
+@media (max-width:1024px) {
+    .card6 {
+        position: absolute;
+        top: 70px;
+        left: 5px;
+    }
+}
+
+@media (max-width:1024px) {
+    .card7 {
+        position: absolute;
+        top: 70px;
+        left: 5px;
+    }
+}
+@media(max-width:1024px){
+    form{
+        display:inline-block;
     }
 }
