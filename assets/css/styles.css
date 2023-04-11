@@ -1,7 +1,6 @@
 /*layer 1*/
 .layer1 {
-    background-image: url(/assets/images/back.png);
-    height: 830px;
+    background-image: url(/assets/images/background1.png);
 }
 
 /*navbar*/
