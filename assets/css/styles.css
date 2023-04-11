@@ -1,6 +1,8 @@
 /*layer 1*/
 .layer1 {
     background-image: url(/assets/images/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*navbar*/
@@ -392,21 +394,21 @@ form input {
     }
 }
 
-@media (max-width:768px) {
+@media only screen and(min-width:325px)and(max-width:768px) {
     .card5 {
         position: absolute;
         top: 20px;
     }
 }
 
-@media (max-width:768px) {
+@media only screen and(min-width:325px)and(max-width:768px) {
     .card6 {
         position: absolute;
         top: 20px;
     }
 }
 
-@media (max-width:768px) {
+@media only screen and(min-width:325px)and(max-width:768px) {
     .card7 {
         position: absolute;
         top: 20px;

@@ -1,4 +1,4 @@
-function validate(){
+function validate() {
     $(document).ready(function () {
         $(".comments").validate({
             rules: {
@@ -11,15 +11,15 @@ function validate(){
                 'phone': {
                     required: true,
                     minlength: 10,
-                    pattern: /^[0-9]+$/
+                    pattern: /^[0-9]/
                 },
                 'email': {
                     required: true,
                     email: true,
                     pattern: /^[a-z0-9]+@[a-z]+\.[a-z]{2,4}$/
                 },
-                'comments':{
-                    required:true
+                'comment': {
+                    required: true
                 }
             },
             messages: {
@@ -40,7 +40,7 @@ function validate(){
                     email: "<br> Please enter a valid email address",
                     pattern: "<br> E-mail address should be in proper format"
                 },
-                'comments':{
+                'comment': {
                     required: "<br> Please enter some comments"
                 }
             }
