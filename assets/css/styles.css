@@ -339,3 +339,52 @@ form input {
     font-weight: 700;
     font-family: "Open Sans";
 }
+
+@media (max-width:768px) {
+    .par1 {
+        font-size: 45px;
+    }
+}
+@media (max-width:768px) {
+    .par2 {
+        font-size: 15px;
+}
+}
+@media (max-width:768px) {
+    .par3 {
+        font-size: 25px;
+    }
+}
+@media (max-width:768px) {
+    #img1 {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    #img2 {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .par4 {
+        font-size: 20px;
+    }
+}
+@media (max-width:768px) {
+    .par7 {
+        font-size: 20px;
+    }
+}
+@media (max-width:768px) {
+    .par11 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .card6{
+        margin-top: 30px;
+    }
+}
